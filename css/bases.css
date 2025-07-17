@@ -1,0 +1,5 @@
+.background_body {
+    background-color: #8C5C3C;
+    background: linear-gradient(153deg, rgba(140, 92, 60, 1) 21%, rgba(140, 92, 60, 1) 35%, rgba(140, 92, 60, 1) 47%, rgba(127, 83, 55, 1) 57%, rgba(123, 81, 54, 1) 66%, rgba(90, 59, 41, 1) 74%, rgba(61, 41, 31, 1) 86%);
+    height: 100%;
+}
