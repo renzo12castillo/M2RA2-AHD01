@@ -1,0 +1,72 @@
+[
+    {
+        "dpi": 2882358790102,
+        "nombre": "Eduardo Manuel",
+        "apellido": "Cabal García",
+        "telefono": 58898777,
+        "imagen": "../json/media-json/persona1.png"
+    },
+    {
+        "dpi": 2992587770101,
+        "nombre": "Maria Eugenia",
+        "apellido": "Martinez Hernandez",
+        "telefono": 41278898,
+        "imagen": "../json/media-json/persona2.png"
+    },
+    {
+        "dpi": 2772587870103,
+        "nombre": "Susana Gabriela",
+        "apellido": "Marroquin Lopez",
+        "telefono": 35857898,
+        "imagen": "../json/media-json/persona3.png"
+    },
+    {
+        "dpi": 8465231790548,
+        "nombre": "Ana Sofía",
+        "apellido": "García Hernández",
+        "telefono": 48897567,
+        "imagen": "../json/media-json/persona4.png"
+    },
+    {
+        "dpi": 3519824670821,
+        "nombre": "Juan Carlos",
+        "apellido": "López Morales",
+        "telefono": 35898792,
+        "imagen": "../json/media-json/persona5.png"
+    },
+    {
+        "dpi": 9821357492630,
+        "nombre": "María Elena",
+        "apellido": "Díaz Ramírez",
+        "telefono": 45892311,
+        "imagen": "../json/media-json/persona6.png"
+    },
+    {
+        "dpi": 1278943569821,
+        "nombre": "Carlos Alberto",
+        "apellido": "Gómez González",
+        "telefono": 58876543,
+        "imagen": "../json/media-json/persona7.png"
+    },
+    {
+        "dpi": 6548231794630,
+        "nombre": "Sofía Isabel",
+        "apellido": "Rodríguez Sánchez",
+        "telefono": 38894567,
+        "imagen": "../json/media-json/persona8.png"
+    },
+    {
+        "dpi": 2198765432198,
+        "nombre": "Luis Miguel",
+        "apellido": "Pérez Castillo",
+        "telefono": 49872345,
+        "imagen": "../json/media-json/persona9.png"
+    },
+    {
+        "dpi": 4639821357982,
+        "nombre": "Gabriela Cristina",
+        "apellido": "Torres",
+        "telefono": 35871289,
+        "imagen": "../json/media-json/persona10.png"
+    }
+]

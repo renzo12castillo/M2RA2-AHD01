@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personajes</title>
+    <title>Personas</title>
     <link rel="stylesheet" href="../css/bases.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
@@ -16,7 +16,7 @@
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="../media/personajes.png" class="d-block w-100" alt="Personajes">
+                    <img src="../media/personas.png" class="d-block w-100" alt="Datos">
                 </div>
             </div>
         </div>
@@ -31,13 +31,16 @@
                             <a class="nav-link active text-light" aria-current="page" href="../index.html">Menu</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link text-light" href="../paginas/productos-tarjetas.html">Productos Card</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link text-light" href="../paginas/datos-usuarios.html">Datos Usuarios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="../paginas/tabla-productos.html">Tabla de Productos</a>
+                            <a class="nav-link text-light" href="../paginas/personajes.html">Personajes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="../paginas/productos-tarjetas.html">Productos Card</a>
+                            <a class="nav-link text-light" href="../paginas/tabla-productos.html">Tabla de Productos</a>
                         </li>
                     </ul>
                 </div>
@@ -47,11 +50,22 @@
 
     <main>
         <div class="container">
-            <div class="row" id="verPersonajes"></div>
+            <table class="table table-dark table-striped-columns">
+                <thead>
+                    <tr>
+                        <th scope="col">DPI</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Apellido</th>
+                        <th scope="col">Telefono</th>
+                        <th scope="col">Imagen</th>
+                    </tr>
+                </thead>
+                <tbody id="verPersonasTabla"></tbody>
+            </table>
         </div>
     </main>
 
-    <script src="../js/personajes.js"></script>
+    <script src="../js/personas.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
