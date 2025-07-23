@@ -1,0 +1,92 @@
+
+html {
+    font: 16px Arial;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #f2b01e;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.background_body {
+    background-color: #8C5C3C;
+    background: linear-gradient(153deg, rgba(140, 92, 60, 1) 21%, rgba(140, 92, 60, 1) 35%, rgba(140, 92, 60, 1) 47%, rgba(127, 83, 55, 1) 57%, rgba(123, 81, 54, 1) 66%, rgba(90, 59, 41, 1) 74%, rgba(61, 41, 31, 1) 86%);
+    background-size: cover;
+    min-height: 165vh;
+    background-repeat: no-repeat;
+}
+
+.servicios {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.cards {
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-top: 60px;
+    position: relative;
+    -webkit-perspective: 500;
+    perspective: 500;
+}
+
+.service-bg {
+    background: radial-gradient(circle, #6d6550, #49453a);
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -webkit-transform: rotateY(30deg);
+    -webkit-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;
+}
+
+.cards:hover .service-bg {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+
+.service-bg i {
+    font-size: 8em;
+    color: #f2b01e;
+}
+
+.service-description {
+    background-color: #f0ede7;
+    color: #8b7d5e;
+    font-size: 20px;
+    width: 190px;
+    padding: 20px;
+    position: absolute;
+    top: 170px;
+    left: 35px;
+    box-shadow: 0px 0px 10px #000;
+    -webkit-transform: rotateY(30deg) translateZ(60px);
+    transform: rotateY(30deg) translateZ(60px);
+    -webkit-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;
+}
+
+.cards:hover .service-description {
+    -webkit-transform: rotateY(0deg) translateZ(0px);
+    transform: rotateY(360deg);
+}
+
+.service-description h4 {
+    color: #f2b01e;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
